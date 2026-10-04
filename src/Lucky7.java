@@ -43,15 +43,15 @@ public class Lucky7 {
             }
 
             if (seiskat == 1){
-                int win = 5 * bet;
+                int win = 3 * bet;
                 System.out.println("You won " + win + "!");
                 balance +=win;
             } else if (seiskat == 2) {
-                int win = 15 * bet;
+                int win = 10 * bet;
                 System.out.println("You won " + win + "!");
                 balance += win;
             } else if (seiskat == 3) {
-                int win = 50 * bet;
+                int win = 30 * bet;
                 System.out.println("You won " + win + "!");
                 balance += win;
             } 
