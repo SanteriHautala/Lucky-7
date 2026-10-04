@@ -23,7 +23,7 @@ public class Lucky7 {
             balance -= bet;
 
             System.out.println("balance: " + balance +(" Bet: " + bet));
-            System.out.println("Spinning...");
+            System.out.println("Good luck!");
 
             int num1 = r.nextInt(10) + 1;
             int num2 = r.nextInt(10) + 1;
