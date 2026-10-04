@@ -60,7 +60,7 @@ public class Lucky7 {
                 System.out.println("You don't have enough balance for that bet. Your balance is: " + balance);
                 break;
             }
-            System.out.print("Spin again by pressing Enter (or type 'e' to exit): ");
+            System.out.print("Spin again by pressing Enter (or type 'e' and press Enter to exit): ");
             playAgain = in.nextLine();
 
         } while (!playAgain.equalsIgnoreCase("e"));
